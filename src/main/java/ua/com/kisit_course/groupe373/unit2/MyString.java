@@ -45,9 +45,9 @@ public class MyString {
         =========
         S    text1 text2 text3
         =========
-        H           "Hello World"
-                    ----
-                    ----
+        H           "Hello World"        "Hello World!!!!"
+                    ----                  ----
+                    ----                  ----
          */
 
         text1.concat("123");

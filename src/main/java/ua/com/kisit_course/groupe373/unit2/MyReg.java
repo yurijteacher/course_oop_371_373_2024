@@ -10,11 +10,11 @@ public class MyReg {
 //        String pattern = "How is the time";
 
 //        String pattern ="[ a-zH]+";
-//        String pattern ="[a-zA-Z]+";
+        String pattern ="[a-zA-Z! ]+";
 //        String pattern = "[ \\.|0-9a-zA-Z]+";
 
 
-        String pattern ="[abc|sa]";
+
         /*
         . - будь-які значення алфавіту
         [0-9a-zA-Z_] \w
@@ -39,7 +39,7 @@ public class MyReg {
 
 
 //        String text = "How is the time 1234.";
-        String text ="asdf";
+        String text ="Hello Student!!";
 
 
 
@@ -54,11 +54,6 @@ public class MyReg {
         }
 
         System.out.println( m.matches() ? true : false );
-
-
-
-
-
 
     }
 

@@ -33,7 +33,6 @@ public class MyString {
 
         String text = "Hello World";
         String text2 = "Hello World";
-
         String text3 = new String("Hello World");
 
         System.out.println(text==text2);  // true
@@ -48,8 +47,8 @@ public class MyString {
         System.out.println(text.hashCode()==text3.hashCode());
 
 
-        System.out.println(text.equals(text2));
-        System.out.println(text.equals(text3));
+        System.out.println(text.equals(text2)); // true
+        System.out.println(text.equals(text3)); // true
 
         System.out.println(text.hashCode());
         text = text.concat("!!!");
@@ -64,7 +63,7 @@ public class MyString {
         text+= "sdfdsf";
 
 
-        StringBuilder stringBuilder = new StringBuilder("Hello World");
+        StringBuilder stringBuilder = new StringBuilder("Hello World!!!");
         System.out.println(stringBuilder.hashCode());
 
         stringBuilder = stringBuilder.append("1234");
