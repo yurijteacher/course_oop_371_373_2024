@@ -7,9 +7,9 @@ public class ValidationEmail {
 
     public static void main(String[] args) {
 
-        String email = "Vasya.pypkin_1234.sdf@kneu.edu.ua";
+        String email = "vas.ya.+-%pypkin_-1234.sdf@kneu-nauka.edu.ua";
 
-        String pattern ="[a-zA-Z]+[\\.\\w]+@[\\w]+[\\.\\w]+[\\w]{2,}";
+        String pattern ="^[a-zA-Z0-9\\._%+-]+@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*\\.[a-zA-Z]{2,}$";
 
         Pattern p = Pattern.compile(pattern);
         Matcher m = p.matcher(email);
