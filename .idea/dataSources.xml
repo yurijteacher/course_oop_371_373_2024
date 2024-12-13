@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="test_db_373@localhost" uuid="a1af50d1-6c76-4bde-8f68-86ada1e3915e">
+    <data-source source="LOCAL" name="test_shop_371@localhost" uuid="4cc281ce-b0b9-4706-9874-2a1d4987e7f8">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/test_db_373</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/test_shop_371</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
@@ -13,11 +13,11 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="test_db_372@localhost" uuid="4858f3dd-55ea-4442-9215-229b6bb5c242">
+    <data-source source="LOCAL" name="test_shop_372_373@localhost" uuid="2dce181d-935f-45b2-8625-59170cda860e">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/test_db_372</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/test_shop_372_373</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />

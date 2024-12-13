@@ -3,10 +3,11 @@ package ua.com.kisit_course.groupe371.unit11;
 import ua.com.kisit_course.groupe371.unit11.config.MyConnection;
 import ua.com.kisit_course.groupe371.unit11.entity.Category;
 import ua.com.kisit_course.groupe371.unit11.entity.Product;
+import ua.com.kisit_course.groupe371.unit11.repository.AddressRepository;
 import ua.com.kisit_course.groupe371.unit11.repository.CategoryRepository;
 import ua.com.kisit_course.groupe371.unit11.repository.ProductRepository;
+import ua.com.kisit_course.groupe372.unit11.entity.Address;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -54,7 +55,7 @@ public class Main {
 
         product1.setName("iPhone 12");
 
-        productRepository.update(product1);
+//        productRepository.update(product1);
 
         List<Product> products1 = productRepository.getAll();
 
@@ -62,11 +63,24 @@ public class Main {
             System.out.println(el);
         }
 
-        productRepository.delete(product1);
+//        productRepository.delete(product1);
 
         System.out.println("--");
         List<Product> products2 = productRepository.getAll();
         for (Product el: products2){
+            System.out.println(el);
+        }
+
+
+        Address address = new Address();
+        address.setDescription("Asdsf dsf dsfdsf ");
+
+        AddressRepository addressRepository = new AddressRepository();
+        addressRepository.save(address);
+
+        List<Address> addresses = addressRepository.getAll();
+
+        for (Address el: addresses){
             System.out.println(el);
         }
 
