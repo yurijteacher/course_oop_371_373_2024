@@ -34,7 +34,6 @@ public class ProductRepository extends MyConnection implements ProductDao {
             preparedStatement.setInt(4, product.getCategory().getId());
 
             preparedStatement.execute();
-
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
