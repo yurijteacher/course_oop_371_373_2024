@@ -6,8 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        MyConnection connection = new MyConnection();
-//        connection.getConnection();
+        MyConnection connection = new MyConnection();
+        connection.getConnection();
 
         CategoryRepository categoryRepository = new CategoryRepository();
         categoryRepository.save(new Category("iPhone11","asd sad asd","/static/as.jpg"));
